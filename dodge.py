@@ -13,7 +13,7 @@ screen.tracer(0)  # Turns off automatic screen updates for smooth rendering
 player = turtle.Turtle()
 player.shape("square")
 player.color("blue")
-player.shapesize(stretch_wid=1, stretch_len=4)  # 80x20 pixel bar
+player.shapesize(stretch_wid=2, stretch_len=3)  # 80x20 pixel bar
 player.penup()
 player.goto(0, -250)
 
